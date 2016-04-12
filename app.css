@@ -1,0 +1,43 @@
+.nav-items {
+  margin-top: 1em;
+
+}
+
+.nav-items .nav-item {
+  width: 100%;
+}
+
+.nav-items .nav-item .active {
+  background-color: #aaa;
+  color: #fff;
+}
+
+label {
+  font-weight: bold !important;
+}
+
+body {
+  font-family: Monospace;
+}
+
+h1 {
+  font-family: Monospace;
+}
+
+.piano-keyboard {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.piano-keyboard  .piano-key-label {
+  font-size: 55px;
+  fill: #4B4B4B;
+}
+
+.piano-keyboard.depressed {
+  fill: #fff;
+}
+
+.piano-keyboard .piano-key.depressed {
+  fill: #2199e8;
+}

@@ -1,3 +1,8 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const Isvg = require('react-inlinesvg');
+
 const { createClass  } = React;
 
 let NextNoteId = 4;
@@ -116,7 +121,7 @@ const ChordBuilderBody = createClass({
         </div>
         <div className="row">
           <div className="piano-keyboard columns medium-12">
-            <Isvg src="piano.svg">
+            <Isvg src="public/piano.svg">
               Please use Google Chrome or something that supports SVG
             </Isvg>
           </div>
